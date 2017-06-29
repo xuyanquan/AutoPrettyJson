@@ -1,18 +1,18 @@
 # AutoPrettyJson
 format json insert align
 
-run index.html, put json data, click pretty button to get result.
+运行 index.html, 输入不规则json数据, 点击 pretty 按钮得到格式化json.
 
-example
+例子
 
-input unformat json
+输入不规则json
 ```javascript
 {sdfasdf: 1231, sdf:22,
 sa:44,
 cccc: { ca:"IamTT", bccc: "yoyo", cc: {op:"errr",ccc:34} }
 }
 ```
-change to
+得到如下
 ```javascript
 {
 	sdfasdf : 1231 ,
